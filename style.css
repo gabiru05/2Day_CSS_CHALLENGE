@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Itim&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(0, 252, 172);
+}
+main {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+h2 {
+	color: transparent;
+	font-family: "Caveat", cursive;
+	font-size: 4em;
+
+	background-clip: text;
+	-webkit-background-clip: text;
+	background-image: rgb(0, 118, 235);
+	background: -moz-linear-gradient(
+		100deg,
+		rgba(0, 118, 235, 1) 0%,
+		rgba(78, 0, 210, 1) 100%
+	);
+	background-image: -webkit-linear-gradient(
+		100deg,
+		rgba(0, 118, 235, 1) 0%,
+		rgba(78, 0, 210, 1) 100%
+	);
+	background-image: linear-gradient(
+		100deg,
+		rgba(0, 118, 235, 1) 0%,
+		rgba(78, 0, 210, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0076eb",endColorstr="#4e00d2",GradientType=1);
+}
+.menu {
+	aspect-ratio: 1/1;
+	width: 6vw;
+	display: flex;
+	flex-direction: column;
+	gap: 12%;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+span {
+	height: 10%;
+	width: 100%;
+	background-color: white;
+	border-radius: 6px;
+	filter: drop-shadow(1px 1px 10px #0000002f);
+}
+
+/* Reverse */
+.line3 {
+	animation: buttonRever 700ms ease-in-out backwards;
+}
+@keyframes buttonRever {
+	0% {
+		transform: translateY(-225%) rotate(135deg);
+	}
+	50% {
+		transform: translateY(-225%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.line2 {
+	animation: centroRever 700ms ease-in-out forwards;
+}
+@keyframes centroRever {
+	0%,
+	50% {
+		scale: 0;
+	}
+
+	100% {
+		scale: 1;
+	}
+}
+
+.line1 {
+	animation: TopRever 700ms ease-in-out forwards;
+}
+
+@keyframes TopRever {
+	0% {
+		transform: translateY(225%) rotate(45deg);
+	}
+
+	50% {
+		transform: translateY(225%);
+	}
+	100% {
+		transform: translateY(0%);
+	}
+}
+
+.top {
+	animation: top 700ms ease-in-out forwards;
+	filter: drop-shadow(1px 1px 10px rgb(0, 76, 255));
+}
+
+@keyframes top {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: translateY(225%);
+	}
+	100% {
+		transform: translateY(225%) rotate(45deg);
+	}
+}
+
+.centro {
+	animation: centro 700ms ease-in-out forwards;
+}
+
+@keyframes centro {
+	0% {
+		scale: 1;
+	}
+	50%,
+	100% {
+		scale: 0;
+	}
+}
+
+.bottom {
+	animation: bottom 700ms ease-in-out forwards;
+	filter: drop-shadow(1px 1px 10px rgb(0, 76, 255));
+}
+
+@keyframes bottom {
+	0% {
+		transform: rotate(0deg);
+	}
+	50% {
+		transform: translateY(-225%);
+	}
+	100% {
+		transform: translateY(-225%) rotate(135deg);
+	}
+}
