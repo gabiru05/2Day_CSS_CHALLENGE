@@ -4,8 +4,8 @@ Menu Icon: Used on almost every website by now, simple but impressively animated
 
 ## Screenshots
 
-![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/src/Hamburger1.png)
-![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/src/Hamburger2.png)
+![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/blob/main/src/Hamburger1.png)
+![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/blob/main/src/Hamburger2.png)
 
 ## Run Locally
 
