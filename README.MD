@@ -1,11 +1,8 @@
-## Day2-CSS_CHALLENGE- Hamburger Menu
+## Day3-CSS_CHALLENGE- THE Pyramide
 
-Menu Icon: Used on almost every website by now, simple but impressively animated it becomes a real eye-catcher
+Not as challenging as the real pyramids in Egypt, but the shadow path is not easy.
 
 ## Screenshots
-
-![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/blob/main/src/Hamburger1.png)
-![App Screenshot](https://github.com/gabiru05/2Day_CSS_CHALLENGE/blob/main/src/Hamburger2.png)
 
 ## Run Locally
 
